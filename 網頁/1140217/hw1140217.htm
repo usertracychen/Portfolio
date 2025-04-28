@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <style>
+   
+
+      #footer{
+        background-color: #f5d20a;
+        text-align: center;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding:10px;
+      }
+
+      #title{
+        background-color: #b3b325;
+        padding:10px
+        
+      }
+
+      h1,h3{
+        margin:0px;
+        font-family: Arial;
+      }
+      h1{
+        text-align:center;
+      }
+      #content{
+        background-color: #dbdb66;
+        padding:10px;
+      }
+
+      #button1{
+        background-color: #f1d119;
+        border-radius: 5px;
+        font-size: 20px;
+        padding:10px;
+        margin:10px
+      }
+      h3{
+        color:red;
+      }
+
+      strong{
+        font-size: 30px;
+      }
+    
+    </style>
+</head>
+<body>
+    <div id="origin">
+        <div id="title"><h1>Classic nostalgic songs</h1></div>
+        <div id="content">
+            <h3><strong id="red">L</strong>IST</h3>
+            <ul>
+                <li id="songa">Song A</li>
+                <li id="songb">Song B</li>
+                <li id="songc">Song C</li>
+            </ul>
+
+            <input type="button" id="button1" onclick="changeText()" value="Change text content" >
+        </div>
+        <div id="footer" >
+            &copy;Copyright 2025 幼獅創意流行中心
+        </div>
+    </div>
+   
+    <script>
+      let flag=true;
+      function changeText(){
+        let a =document.getElementById("songa");
+        let b =document.getElementById("songb");
+        let c =document.getElementById("songc");
+        
+        if(flag){
+          a.innerHTML="See You Again";
+          b.innerHTML="Because of you";
+          c.innerHTML="Yesterday once more";
+          flag=false;
+        }else{
+          a.innerHTML="Song A";
+          b.innerHTML="Song B";
+          c.innerHTML="Song C";
+          flag=true;
+        }
+        
+
+      }
+    </script>
+</body>
+</html>

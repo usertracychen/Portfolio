@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <h1>Javascript</h1>
+    <script>
+        let weight=prompt("Please enter your weight: ");
+        let height=prompt("Please enter your height: ");
+        let BMI=(weight/((height/100.0)**2)).toFixed(1);
+        if(BMI<18.5){
+            alert("BMI:"+BMI);
+            alert("過輕");
+        }else if(BMI<=24){
+            alert("BMI:"+BMI);
+            alert("正常");
+        }else if(BMI<=27){
+            alert("BMI:"+BMI);
+            alert("過重");
+        }else if(BMI<=35){
+            alert("BMI:"+BMI);
+            alert("肥胖");
+        }else{
+            alert("BMI:"+BMI);
+            alert("極肥胖");
+        }
+    </script>
+    
+
+</body>
+</html>

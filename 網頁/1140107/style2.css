@@ -1,0 +1,42 @@
+h1{
+    text-align:center;
+    font-family: "微軟正黑體";
+    color:maroon;
+    background-color: wheat;
+    background-image: url(line.png);
+    
+}
+.paragraph1{
+    font-size: 22px;
+    font-family: "標楷體";
+    color:black;
+    background-color: #ffffcc;
+    line-height:1.7;
+    text-indent: 1cm;
+}
+
+.content1{
+    color:blue;
+    text-decoration: underline;
+    font-style: italic;
+}
+.content2{
+    color:green;
+    text-decoration: overline;
+    font-weight: bold;
+
+}
+
+.paragraph2{
+    font-size: 26px;
+    font-family: "標楷體";
+    color:maroon;
+    background-color: #fafabb;
+    line-height:2;
+    border:solid 5px orange;
+    text-indent: 1cm;
+    padding:20px;
+    background-image: url(flower2.gif);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}

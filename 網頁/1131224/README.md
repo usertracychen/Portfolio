@@ -12,3 +12,6 @@
 
 
 ![image](https://github.com/user-attachments/assets/767215d6-13b6-49c1-b3cc-1cdaca567f0a)
+
+橫越跨兩列的單元格以及跨兩郎的單元格
+![image](https://github.com/user-attachments/assets/17bed886-ed42-4b5a-83d2-9e85179ea83b)

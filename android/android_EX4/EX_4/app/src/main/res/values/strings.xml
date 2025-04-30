@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">EX_4</string>
+    <string-array name="cityname">
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>新竹市</item>
+    </string-array>
+    <string-array name="citypicture">
+        <item>@drawable/taipei2</item>
+        <item>@drawable/newtaipei2</item>
+        <item>@drawable/taoyuan2</item>
+        <item>@drawable/hsinchu2</item>
+    </string-array>
+
+    <string-array name="citypicicon">
+        <item>@drawable/taipeicity_icon</item>
+        <item>@drawable/newtaipeicity_icon</item>
+        <item>@drawable/taoyuancity_icon</item>
+        <item>@drawable/hsinchucity_icon</item>
+    </string-array>
+
+
+    <string name="taipei">Taipei</string>
+    <string name="newtaipei">New Taipei</string>
+    <string name="taoyuan">Taoyuan</string>
+    <string name="hsinchu">Hsinchu</string>
+    <string-array name="city_info">
+        <item>@string/taipei_info</item>
+        <item>@string/newtaipei_info</item>
+        <item>@string/taoyuan_info</item>
+        <item>@string/hsinchu_info</item>
+    </string-array>
+
+    <string name="taipei_info">臺北市，通稱臺北，是中華民國的直轄市及首都，位於臺灣北部，地處臺北盆地東北半部[1]，為臺北都會區及北臺灣的中心城市，外圍由新北市環繞。\n
+        全市轄有12區，其中市府所在地為信義區。全境設籍人口約249萬人，人口密度每平方公里約有9,100多人，是中華民國人口第四多、人口密度最高的縣市級行政區。</string>
+    <string name="newtaipei_info">新北市，通稱「新北」，是中華民國的直轄市，位於臺灣北部，由原臺北縣改制而來，全境環繞臺北市，東北則三面環繞基隆市，東南鄰宜蘭縣，西南鄰桃園市。\n
+        其所轄石門區富貴角地處臺灣本島最北端，貢寮區三貂角地處臺灣本島最東端。全市劃分為29區，其中行政中心為板橋區；\n
+        設籍人口約4百萬人，為臺灣人口最多的建制市及一級行政區。新北市的人口高度集中於臺北盆地，以石門區富貴角跟烏來區與桃、宜交界的巴博庫魯山的連線劃分東、西半部，人口差距達十倍之多，呈現不對稱發展。\n
+        清治時代前與淡水河右岸（今臺北市區）各自發展，隨著戰後人口的不斷移入，現今的新北市發展成以淡水河－新店溪左岸各區為臺北都會區次中心的多核心都市，多數市區有如臺北都會區的衛星城市或臥城。\n
+        其有高度都市化的區域，也有鄉村風情與自然山川風貌，地景樣貌多元，人口組成及經濟產業具多樣性。</string>
+    <string name="taoyuan_info">桃園市的市名源自桃園區，其與中壢區並列為桃園都市核心，以桃園區為核心的地區稱為北桃園、以中壢區為核心的地區則稱為南桃園。\n
+        由於毗鄰臺北都會區，多項重大公共建設與商業投資的挹注，加上境內擁有臺灣規模最大的機場桃園國際機場，促使桃園市發展迅速，吸引大量外縣市人口的移入，形成雙核心發展的桃園中壢都會區。\n
+    在人口結構上，桃園市有閩、客、外省與原住民族等族群，形成多元族群融合之貌。此外，由於桃園市的工業發達，也使其成為全臺引入來自東南亞外籍勞工人數最多的縣市，以及越南裔新住民人數最多的縣市。</string>
+    <string name="hsinchu_info">新竹市是中華民國臺灣省的市，位於臺灣西北部。北邊、東北邊與新竹縣相連，西臨臺灣海峽，南鄰苗栗縣。新竹市為新竹都會區的中心城市，全市劃分為3個區，總面積約為104.1526平方公里</string>
+</resources>

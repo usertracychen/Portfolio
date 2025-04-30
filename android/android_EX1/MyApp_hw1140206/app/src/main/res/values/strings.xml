@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My App_hw1140206</string>
+    <string name="pic1">這是一隻正要奔跑的柯基!</string>
+    <string name="pic2">這是一隻黑色小柯基!</string>
+    <string name="pic3">這是兩隻黃色小柯基!</string>
+    <string name="pic4">這是一隻歪頭的黃色小柯基!</string>
+    <string name="pic5">這是兩隻小黃金獵犬!</string>
+    <string name="pic6">這是一隻馬爾濟斯!</string>
+</resources>

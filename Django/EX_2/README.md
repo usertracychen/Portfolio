@@ -1,4 +1,4 @@
-<h1>Django_EX_2</h1>
+<h1>Django_EX2</h1>
 
 1.製作url: 192.168.x.x/homework3/
 ![image](https://github.com/user-attachments/assets/958de2b9-44ce-426c-a79a-e6beec3f49b9)

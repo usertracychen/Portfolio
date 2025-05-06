@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#d1fce8">
+    {% if s == "2" %}
+        <h1>{{username}}小姐您好!</h1>
+    {% else %}
+        <h1>{{username}}先生您好!</h1>
+    {% endif %}
+    <p> 您的學歷為:{{usernumber}}</p>
+    <p> 您喜歡的活動如下:</p>
+    <ul>
+        {% for item in items %}
+        <li>{{item}}</li>
+        {%endfor%}
+    </ul>
+    <p> 您對於使用者臉書經營社群看法為:<br>{{useropinion}}</p>
+    
+</body>
+</html>

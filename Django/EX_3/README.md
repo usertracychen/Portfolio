@@ -35,6 +35,7 @@ INSERT INTO myapp_temperature_db (sensor_id, temperature, humidity, timestamp) V
 (1, 36, 80.3, '2022-08-09 09:29:29'),
 (1, 30.2, 86.3, '2022-08-09 11:00:00'),
 (1, 60, 86, '2022-08-09 13:00:00');
+
 ![image](https://github.com/user-attachments/assets/c2726f81-a4f1-4fa5-aef6-a58b42228c59)
 
 4.撰寫url(如下)、view(內容自訂)、建立templates(自訂)

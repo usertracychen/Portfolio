@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>歷史溫溼度顯示:</h1>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>sensor_id</th>
+            <th>溫度</th>
+            <th>濕度</th>
+            <th>時間</th>
+        </tr>
+        {% for data in resultList %}
+            <tr>
+                <td>{{data.myid}}</td>
+                <td><center>{{data.sensor_id}}</center></td>
+                <td>{{data.temperature}}</td>
+                <td>{{data.humidity}}</td>
+                <td>{{data.timestamp|date:'Y-m-d H:i:s'}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+  
+    
+</body>
+</html>
